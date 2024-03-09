@@ -3,9 +3,12 @@ var onionPrice = 20;
 var eggPrice = 10;
 // console.log(eggPrice)
 
-// Addition, Subtraction
+// Addition
 var totalPrice = onionPrice + eggPrice;
+console.log(totalPrice);
 
+
+// Subtraction
 var priceDifference = onionPrice - eggPrice;
 // console.log(priceDifference);
 
@@ -24,4 +27,4 @@ var totalCost = orangePrice * quantity;
 var money = 500;
 var player = 10;
 var eachPlayer = money / player;
-console.log(eachPlayer)
+// console.log(eachPlayer)
