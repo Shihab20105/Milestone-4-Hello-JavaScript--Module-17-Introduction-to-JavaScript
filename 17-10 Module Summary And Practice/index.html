@@ -7,5 +7,167 @@
 </head>
 <body>
     <h1>Module Summary And Practice Problem</h1>
-</body>
-</html>
+
+                                        <h2>/* Practice Problem 1</h2>
+
+    <h3>Harry's mum gave him money and asked him to buy some oranges and apples. Write a programme to help harry to calculate how much money the shopkeeper will return.</h3>
+
+    <h3>Input:</h3>
+    <h3>The first line of the input is the taka Harry's mum gave him.</h3>
+    <h3>The second line is the cost of 1kg of oranges and 1kg of apples.</h3>
+
+    <h3>Output:</h3>
+    <h3>Print the result.</h3>
+
+    <h3>Sample input:</h3>
+    <h3>1000</h3>
+    <h3>700</h3>
+
+    <h3>Output:</h3>
+    <h3>300 */</h3>
+
+    <br>
+    <h5>var totalMoney = 1000;</h5>
+    <h5>&nbsp;&nbsp;console.log(totalMoney);</h5>
+    <h5>/* Output:</h5>
+    <h5>1000 */</h5>
+
+    <br>
+    <h5>var orangesPrice = 400;</h5>
+    <h5>var applesPrice = 300;</h5>
+    <h5>var totalPrice = orangesPrice + applesPrice;</h5>
+    <h5>&nbsp;&nbsp;console.log(totalPrice);</h5>
+    <h5>/* Output:</h5>
+    <h5>700 */</h5>
+
+    <br>
+    <h5>var returnMoney = totalMoney - totalPrice;</h5>
+    <h5>&nbsp;&nbsp;console.log(returnMoney);</h5>
+    <h5>/* Output:</h5>
+    <h5>300 */</h5>
+
+    <br>
+    /* ---------------------------------------------------------------------------------------------------------------------- */
+
+                                            <h2>/* Practice Problem 2</h2>
+    <h3>Write a programme to calculate the average marks of Mathematics, Biology, Chemistry, Physics and Bangla  of a student.</h3>
+
+    <h3>Input:</h3>
+    <h3>The first line of the input is the marks of the five subjects mentioned above, respectively.</h3>
+
+    <h3>Output:</h3>
+    <h3>Print the result in 2 decimal places.</h3>
+
+    <h3>Sample input:</h3>
+    <h3>75.25, 65, 80, 35.45, 99.50</h3>
+
+    <h3>Output:</h3>
+    <h3>71.04 */</h3>
+
+    <br>
+    <h5>var Mathematics = 75.25;</h5>
+    <h5>&nbsp;&nbsp;console.log(Mathematics);</h5>
+    <h5>/* Output:</h5>
+    <h5>75.25 */</h5>
+    <h5>var Biology = 65;</h5>
+    <h5>&nbsp;&nbsp;console.log(Biology);</h5>
+    <h5>/* Output:</h5>
+    <h5>65 */</h5>
+    <h5>var Chemistry = 80;</h5>
+    <h5>&nbsp;&nbsp;console.log(Chemistry);</h5>
+    <h5>/* Output:</h5>
+    <h5>80 */</h5>
+    <h5>var Physics = 35.45;</h5>
+    <h5>&nbsp;&nbsp;console.log(Physics);</h5>
+    <h5>/* Output:</h5>
+    <h5>35.45 */</h5>
+    <h5>var Bangla = 99.50;</h5>
+    <h5>&nbsp;&nbsp;console.log(Bangla);</h5>
+    <h5>/* Output:</h5>
+    <h5>99.5 */</h5>
+
+    <h5>var totalMarks = Mathematics + Biology + Chemistry + Physics + Bangla;</h5>
+    <h5>&nbsp;&nbsp;console.log(totalMarks);</h5>
+    <h5>/* Output:</h5>
+    <h5>355.2 */</h5>
+
+    <h5>var averageMarks = totalMarks / 5;</h5>
+    <h5>averageMarks = averageMarks.toFixed(2);</h5>
+    <h5>averageMarks = parseFloat(averageMarks);</h5>
+    <h5>&nbsp;&nbsp;console.log(averageMarks);</h5>
+    <h5>/* Output:</h5>
+    <h5>71.04 */</h5>
+
+    <br>
+    /* ---------------------------------------------------------------------------------------------------------------------- */
+                                                <h2>/* Practice Problem 3</h2>
+
+    <h3>John's teacher gave him two variables. Each variable contains a string. John's teacher asked him to combine this two strings    and print them in one line. Help John write the Program.</h3>
+
+    <h3>Input:</h3>
+    <h3>The first and the second lines of the input contain the strings.</h3>
+    
+    <h3>Output:</h3>
+    <h3>Print the result in one line.</h3>
+    
+    <h3>Sample input:</h3>
+    <h3>I am going to be</h3>
+    <h3>an awesome web developer</h3>
+    
+    <h3>Output:</h3>
+    <h3>I am going to be an awesome web developer */</h3>
+    
+    <br>
+    <h5>var ambition = 'I am going to be';</h5>
+    <h5>&nbsp;&nbsp;console.log(ambition);</h5>
+    <h5>/* Output:</h5>
+    <h5>I am going to be */</h5>
+    
+    <h5>var aim = 'an awesome web developer';</h5>
+    
+    <h5>var plan = ambition + aim;</h5>
+    <h5>&nbsp;&nbsp;console.log(plan);</h5>
+    <h5>/* Output:</h5>
+    <h5>I am going to bean awesome web developer */</h5> 
+    
+    <h5>var plan = 'I am going to be'+ ' ' +'an awesome web developer';</h5>
+    <h5>&nbsp;&nbsp;console.log(plan);</h5>
+    <h5>/* Output:</h5> 
+    <h5>I am going to be an awesome web developer */</h5>
+
+    <br>
+    /* ---------------------------------------------------------------------------------------------------------------------- */
+                                            <h2>/* Practice Problem 4</h2>
+
+    <h3>Sarah's mother teaching her mathematics. She gave Sarah a number and asked her what the remainder would be if she divided the number by 5. Help Sarah write the program.</h3>
+    
+    <h3>Input:</h3>
+    <h3>The first line of the input contains the number.</h3>
+    
+    <h3>Output:</h3>
+    <h3>Print the remainder.</h3>
+    
+    <h3>Sample input:</h3>
+    <h3>119</h3>
+    
+    <h3>Output:</h3>
+    <h3>4 */</h3>
+    
+    <br>
+    <h5>var totalNumber = 119;</h5>
+    <h5>&nbsp;&nbsp;console.log(totalNumber);</h5>
+    <h5>/* Output:</h5>
+    <h5>119 */</h5>
+    
+    <h5>remainder = totalNumber % 5;</h5>
+    <h5>&nbsp;&nbsp;console.log(remainder);</h5>
+    <h5>/* Output:</h5> 
+    <h5>4 */</h5>
+    
+    
+    
+    
+    
+
+    </body>
+    </html> 
