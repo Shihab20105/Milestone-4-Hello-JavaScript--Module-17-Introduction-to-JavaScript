@@ -1,3 +1,5 @@
+/*                      (Advanced) Mathematical Operation Shorthand */
+
 // Variable declaration
 var tomatoPrice = 25;
 // Variable value update
@@ -14,26 +16,34 @@ var price2 = 10;
 // Add some value to the existing value
 price1 = price1 + 10;
 console.log(price1);
+/* Output:
+41 */
 
 // Addition to the same variable shorthand
 // += Means adding some value to the existing value
 price1 += 10;
 console.log(price1);
+/* Output:
+51 */
 
 
 price2 = price2 - 5;
-// Shorthand -=
 
 // -= Means deducting some values from current value of the variable
+// Shorthand -=
 price2 -= 5;
 
 // *=
 price1 *= 5;
 console.log(price1);
+/* Output:
+255 */
 
 // /=
 price1 /= 5;
 console.log(price1);
+/* Output:
+51 */
 
 var age = 15;
 age = age +1;
