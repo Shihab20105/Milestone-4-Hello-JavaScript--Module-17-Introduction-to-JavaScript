@@ -7,5 +7,119 @@
 </head>
 <body>
     <h1>(Advanced) String Concatenation, Type Conversion ParseInt ParseFloat.</h1>
+
+    <h2>ParseInt and ParseFloat</h2>
+    <p>parseInt() and parseFloat() are functions in JavaScript used for converting strings to numbers.</p>
+
+    <h2>ParseInt</h2>
+    <p>This function takes a string as input and parses it to an integer. It stops parsing when it encounters a character that is not a valid part of a number. It also allows you to specify the base of the numeral system (e.g., binary, octal, decimal, hexadecimal). If no base is provided, it assumes base 10.</p>
+
+    <h2>ParseFloat</h2>
+    <p>This function parses a string argument and returns a floating point number. Unlike parseInt(), it parses the string until it encounters a character that is not a valid part of a floating-point number, such as a letter or a symbol other than period (.) or exponent notation (e or E).These functions are commonly used when dealing with user input, where data may be entered as strings and need to be converted to numbers for mathematical operations or other processing.</p>
+
+    /* ---------------------------------------------------------------------------------------------------------------------- */
+
+    <h2>                            Conversion </h2>
+    <h5>var price1 = 35;</h5>
+    <h5>var price2 = 10;</h5>
+    <h5>var totalPrice = price1 + price2;</h5>
+    <h5>console.log(totalPrice);</h5>
+    <h5>/* Output:</h5>
+    <h5>45 */</h5>
+
+    <br>
+    <h5>var firstName = 'Jennie';</h5>
+    <h5>var lastName = 'Kim';</h5>
+    <h5>var fullName = firstName + lastName;</h5>
+    <h5>console.log(fullName);</h5>
+    <h5>/* Output:</h5>
+    <h5>JennieKim */</h5>
+
+    <br>
+    <h5>var firstName = 'Jennie';</h5>
+    <h5>var lastName = 'Kim';</h5>
+    <h5>var fullName = firstName +'x' +lastName;</h5>
+    <h5>console.log(fullName);</h5>
+    <h5>/* Output:</h5>
+    <h5>JenniexKim */</h5>
+
+    <br>
+    <h5>var firstName = 'Jennie';</h5>
+    <h5>var lastName = 'Kim';</h5>
+    <h5>var fullName = firstName +'' +lastName;</h5>
+    <h5>console.log(fullName);</h5>
+    <h5>/* Output:</h5>
+    <h5>JennieKim */</h5>
+
+    <br>
+    <h5>var firstName = 'Jennie';</h5>
+    <h5>var lastName = 'Kim';</h5>
+    <h5>var fullName = firstName +' &nbsp; ' +lastName;</h5>
+    <h5>console.log(fullName);</h5>
+    <h5>/* Output:</h5>
+    <h5>Jennie Kim */</h5>
+
+    /* ---------------------------------------------------------------------------------------------------------------------- */
+
+    <h2>                            Concatenation  </h2>
+
+    <h5>var price1 = 31;</h5>
+    <h5>var price2 = 10;</h5>
+
+    <br>
+    <h5>var price1 = '31';</h5>
+    <h5>var price2 = '10';</h5>
+    <h5>var totalPrice = price1 + price2;</h5>
+    <h5>console.log(totalPrice);</h5>
+    <h5>/* Output:</h5>
+    <h5>3110 */</h5>
+
+    <br>
+    <h5>var price1 = 31;</h5>
+    <h5>var price2 = '10';</h5>
+    <h5>var totalPrice = price1 + price2;</h5>
+    <h5>console.log(totalPrice);</h5>
+    <h5>/* Output:</h5>
+    <h5>3110 */</h5>
+
+    <br>
+    <h5>var price1 = '31';</h5>
+    <h5>var price2 = 10;</h5>
+    <h5>var totalPrice = price1 + price2;</h5>
+    <h5>console.log(totalPrice);</h5>
+    <h5>/* Output:</h5>
+    <h5>3110 */</h5>
+
+    <br>
+    <h2>                         Convert string to number </h2>
+
+    <h5>var price1 = '31';</h5>
+    <h5>var price2 = 10;</h5>
+    <h5>var totalPrice = price1 + price2;</h5>
+    <h5>console.log(price1);</h5>
+    <h5>/* Output:</h5>
+    <h5>31 (String) */</h5>
+    <h5>console.log(price2);</h5>
+    <h5>/* Output:</h5>
+    <h5>10 (Number) */</h5>
+    <h5>var price1Number = parseInt(price1);</h5>
+    <h5>console.log(price1Number);</h5>
+    <h5>/* Output:</h5>
+    <h5>31 (Number) */</h5>
+
+    <br>
+    <h5>var gpa = '3.41';</h5>
+    <h5>var gpaNumber = parseInt(gpa);</h5>
+    <h5>console.log(gpaNumber);</h5>
+    <h5>/* Output:</h5>
+    <h5>3 (Number) */</h5>
+
+    <br>
+    <h5>var gpa = '3.41';</h5>
+    <h5>var gpaNumber = parseFloat(gpa);</h5>
+    <h5>console.log(gpaNumber);</h5>
+    <h5>/* Output:</h5>
+    <h5>3.41 (Number) */</h5>
+
 </body>
 </html>
