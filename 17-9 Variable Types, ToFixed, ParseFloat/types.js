@@ -1,4 +1,4 @@
-/*                      Variable Types */
+/*                          Variable Types */
 
 var price = 100;
 console.log(price);
@@ -77,7 +77,7 @@ var sum = num1 + num2;
 sum = sum.toFixed(1);
 console.log(sum);
 /* Output:
-0.3 */
+0.3 (String)*/
 
 var num1 = 0.1;
 var num2 = 0.2;
@@ -86,4 +86,4 @@ sum = sum.toFixed(1);
 sum = parseFloat(sum);
 console.log(sum);
 /* Output:
-0.3 */
+0.3 (Number)*/
